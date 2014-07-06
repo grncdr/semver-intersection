@@ -1,0 +1,32 @@
+{
+  "name": "semver-intersection",
+  "version": "1.0.0",
+  "description": "Find the intersection (overlap) of multiple semver ranges.",
+  "main": "index.js",
+  "bin": "bin/semver-intersect",
+  "dependencies": {
+    "semver": "^2.3.1"
+  },
+  "devDependencies": {
+    "markdown-code-blocks": "^0.0.1"
+  },
+  "scripts": {
+    "test": "markdown-code-blocks -t javascript < README.md | node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grncdr/semver-intersection.git"
+  },
+  "keywords": [
+    "semver",
+    "intersect",
+    "overlap",
+    "range"
+  ],
+  "author": "Stephen Sugden <me@stephensugden.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grncdr/semver-intersection/issues"
+  },
+  "homepage": "https://github.com/grncdr/semver-intersection"
+}

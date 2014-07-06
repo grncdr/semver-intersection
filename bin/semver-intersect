@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+var intersect = require('../');
+console.log(intersect(process.argv.slice(2)));
